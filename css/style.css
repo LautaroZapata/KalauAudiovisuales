@@ -1,0 +1,672 @@
+/* MOBILE RESPONSIVE */
+/* HTML ETIQUETAS */
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  /*1 rem = 10px*/ }
+
+.body--bgBody {
+  background: url(../images/backgroundFoto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
+
+/* HTML ETIQUETAS END */
+/* HEADER NAV RESPONSIVE */
+nav {
+  background-color: #ffe9bd;
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #000;
+  text-decoration: none;
+  text-align: center; }
+
+/* HEADER NAV RESPONSIVE */
+/* SECTION PRINCIPAL INDEX.html*/
+#sectionPrincipal {
+  height: 100vh; }
+
+.sectionPrincipal__divContainer .sectionPrincipal__divContainer__textContainer__h1Home {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #ffbb54; }
+
+.sectionPrincipal__divContainer .sectionPrincipal__divContainer__textContainer__h3Home {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff; }
+
+.sectionPrincipal__divContainer .sectionPrincipal__divArrowContainer {
+  height: 15rem; }
+
+.sectionPrincipal__divArrowContainer:hover {
+  transform: scale(1.1);
+  transition: all 1s; }
+
+/* SECTION PRINCIPAL INDEX.html END*/
+/* SECTION EMPRESA INDEX.html */
+.sectionEmpresa {
+  height: 100vh;
+  background-color: #ffda91; }
+
+.sectionEmpresa__divContainer .sectionEmpresa__divContainer__titleEmpresaContainer .sectionEmpresa__divContainer__titleEmpresaContainer__titleEmpresaText {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 5rem; }
+
+.sectionEmpresa__divContainer .sectionEmpresa__divContainer__textContainer .sectionEmpresa__divContainer__textpClass {
+  color: #000;
+  line-height: 3rem;
+  font-size: 1.5rem; }
+
+/* SECTION EMPRESA INDEX.html END */
+/* SECTION PRINCIPAL NOSOTROS.html */
+#sectionPrincipalNosotros {
+  height: 100vh; }
+
+.h1Home {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #ffbb54; }
+
+.h3Home {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff; }
+
+.arrowContainer {
+  height: 15rem; }
+
+.arrowContainer:hover {
+  transform: scale(1.1);
+  transition: all 1s; }
+
+.titles {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 5rem; }
+
+.pNosotros {
+  color: #000;
+  line-height: 3rem;
+  font-size: 1.5rem; }
+
+a {
+  color: #000; }
+
+/* SECTION PRINCIPAL NOSOTROS.html END */
+/* SECTION STAFF NOSOTROS.html */
+.sectionStaff {
+  height: 200vh;
+  background-color: #ededed; }
+
+.titleStaff {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #000; }
+
+/* SECTION STAFF NOSOTROS.html */
+/*SECTION PRINCIPAL PORTAFOLIO.HTML*/
+.cardsContainer {
+  height: 100%; }
+
+.cards__cardsContainer {
+  margin-top: 5rem; }
+
+.cards__cardsContainer__almeida-card {
+  width: 30rem;
+  height: 40rem;
+  background-image: url(../images/almeida.jpg);
+  background-repeat: none;
+  background-size: cover;
+  margin-top: 10rem;
+  box-shadow: 0px 0px 15px 5px black; }
+
+.cards__cardsContainer__sofia-card {
+  width: 30rem;
+  height: 40rem;
+  background-image: url(../images/sofia.jpg);
+  background-repeat: none;
+  background-size: cover;
+  margin-top: 10rem;
+  box-shadow: 0px 0px 15px 5px black; }
+
+.cards__cardsContainer__tiziano-card {
+  width: 30rem;
+  height: 40rem;
+  background-image: url(../images/tiziano.jpg);
+  background-repeat: none;
+  background-size: cover;
+  margin-top: 10rem;
+  box-shadow: 0px 0px 15px 5px black; }
+
+.cards__cardsContainer__benjamin-card {
+  width: 30rem;
+  height: 40rem;
+  background-image: url(../images/benjamin.jpg);
+  background-repeat: none;
+  background-size: cover;
+  margin-top: 10rem;
+  box-shadow: 0px 0px 15px 5px black; }
+
+.cards__cardsContainer__almeida-card:hover {
+  transform: scale(1.1);
+  transition: all 1s; }
+
+.cards__cardsContainer__sofia-card:hover {
+  transform: scale(1.1);
+  transition: all 1s; }
+
+.cards__cardsContainer__tiziano-card:hover {
+  transform: scale(1.1);
+  transition: all 1s; }
+
+.cards__cardsContainer__benjamin-card:hover {
+  transform: scale(1.1);
+  transition: all 1s; }
+
+.h3Portafolio {
+  font-size: 5rem;
+  font-weight: 300;
+  color: #fff; }
+
+.pPortafolio {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff; }
+
+.aPortafolio {
+  text-decoration: none; }
+
+/*ALMEIDA GALERY */
+.h1AlmeidaContainer {
+  height: 20rem;
+  width: 60%; }
+
+.h1AlmeidaText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #000;
+  background-color: #ededed;
+  font-size: 5rem;
+  padding-top: 15rem;
+  padding-bottom: 2rem; }
+
+.almeidaImgContainerMain {
+  background-color: #ededed;
+  height: 100%; }
+
+.almeidaImgContainer {
+  padding-top: 5rem; }
+
+.almeidaImg-1 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-2 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-3 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-4 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-5 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-6 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-7 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-8 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-9 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-10 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-11 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-12 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-13 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-14 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-15 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.almeidaImg-1 {
+  background-image: url(../images/almeida1.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-2 {
+  background-image: url(../images/almeida2.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-3 {
+  background-image: url(../images/almeida3.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-4 {
+  background-image: url(../images/almeida4.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-5 {
+  background-image: url(../images/almeida5.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-6 {
+  background-image: url(../images/almeida6.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-7 {
+  background-image: url(../images/almeida7.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-8 {
+  background-image: url(../images/almeida8.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-9 {
+  background-image: url(../images/almeida9.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-10 {
+  background-image: url(../images/almeida10.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-11 {
+  background-image: url(../images/almeida11.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-12 {
+  background-image: url(../images/almeida12.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-13 {
+  background-image: url(../images/almeida13.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-14 {
+  background-image: url(../images/almeida14.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.almeidaImg-15 {
+  background-image: url(../images/almeida15.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+/* FOOTER */
+.footerContainer .footerContainer__divCopyrightContainer .footerContainer__divCopyrightContainer__copyrightText {
+  font-size: 1.5rem; }
+
+.color-twitter:hover {
+  transform: scale(1.3);
+  transition: all 1s; }
+
+.color-youtube:hover {
+  transform: scale(1.3);
+  transition: all 1s; }
+
+.color-instagram:hover {
+  transform: scale(1.3);
+  transition: all 1s; }
+
+.color-twitter {
+  color: #ffda91;
+  font-size: 2rem; }
+
+.color-youtube {
+  color: #ffda91;
+  font-size: 2rem; }
+
+.color-instagram {
+  color: #ffda91;
+  font-size: 2rem; }
+
+/* FOOTER */
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* HTML ETIQUETAS */
+  * {
+    margin: 0;
+    padding: 0; }
+  html {
+    font-size: 62.5%;
+    /*1 rem = 10px*/ }
+  .body--bgBody {
+    background: url(../images/backgroundFoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; }
+  /* HTML ETIQUETAS END */
+  /* HEADER NAV RESPONSIVE */
+  nav {
+    background-color: #ffe9bd;
+    color: #000;
+    text-decoration: none; }
+    nav div ul li a {
+      margin-left: 2rem;
+      margin-right: 2rem; }
+  .navBarLg {
+    display: flex;
+    justify-content: end;
+    font-size: 2rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500; }
+  nav div ul li a:hover {
+    background-color: #ffbb54; }
+  /* HEADER NAV RESPONSIVE */
+  /* SECTION PRINCIPAL INDEX.html */
+  #sectionPrincipal {
+    height: 100vh; }
+  .sectionPrincipal__divContainer .sectionPrincipal__divContainer__textContainer__h1Home {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 8rem;
+    color: #ffbb54; }
+  .sectionPrincipal__divContainer .sectionPrincipal__divContainer__textContainer__h3Home {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff; }
+  .sectionPrincipal__divContainer .sectionPrincipal__divArrowContainer {
+    height: 15rem; }
+  .sectionPrincipal__divArrowContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s; }
+  /* SECTION PRINCIPAL INDEX.html END */
+  /* SECTION EMPRESA INDEX.html */
+  .sectionEmpresa {
+    height: 100vh;
+    background-color: #ffda91; }
+  .sectionEmpresa__divContainer .sectionEmpresa__divContainer__titleEmpresaContainer .sectionEmpresa__divContainer__titleEmpresaContainer__titleEmpresaText {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20rem; }
+  .sectionEmpresa__divContainer .sectionEmpresa__divContainer__textContainer .sectionEmpresa__divContainer__textpClass {
+    color: #000;
+    line-height: 5rem;
+    font-size: 3rem; }
+  /* SECTION EMPRESA INDEX.html END */
+  /* SECTION PRINCIPAL NOSOTROS.html */
+  #sectionPrincipalNosotros {
+    height: 100vh; }
+  .h1Home {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 8rem;
+    color: #ffbb54; }
+  .h3Home {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff; }
+  .pNosotros {
+    color: #000;
+    line-height: 5rem;
+    font-size: 3rem; }
+  .titles {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20rem; }
+  .arrowContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s; }
+  /* SECTION PRINCIPAL NOSOTROS.html END */
+  /* SECTION STAFF NOSOTROS.html START*/
+  .sectionStaff {
+    height: 100vh;
+    background-color: #ededed; }
+  .titleStaff {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #000; }
+  /* SECTION STAFF NOSOTROS.html END */
+  /* SECTION PORTAFOLIO.html START */
+  .cardsContainer {
+    display: flex;
+    height: 150vh; }
+  .cards__cardsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ededed; }
+  .cards__cardsContainer__almeida-card {
+    margin-left: 20rem;
+    margin-right: 20rem; }
+  .cards__cardsContainer__sofia-card {
+    margin-left: 20rem;
+    margin-right: 20rem; }
+  .cards__cardsContainer__tiziano-card {
+    margin-left: 20rem;
+    margin-right: 20rem; }
+  .cards__cardsContainer__benjamin-card {
+    margin-left: 20rem;
+    margin-right: 20rem; }
+  .almeidaImgContainerDesktop {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  /* SECTION PORTAFOLIO.html END */
+  /* FOOTER */
+  .iFooter {
+    font-size: 2rem;
+    color: #ffda91; }
+  .copyClass {
+    font-size: 2rem; }
+  .iFooter:hover {
+    transform: scale(1.5);
+    transition: all 1s; } }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  /* HTML ETIQUETAS */
+  * {
+    margin: 0;
+    padding: 0; }
+  html {
+    font-size: 62.5%;
+    /*1 rem = 10px*/ }
+  .body--bgBody {
+    background: url(../images/backgroundFoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; }
+  /* HTML ETIQUETAS END */
+  /* HEADER NAV RESPONSIVE */
+  nav {
+    background-color: #ffe9bd;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #000;
+    text-decoration: none;
+    text-align: center; }
+  /* HEADER NAV RESPONSIVE */
+  /* SECTION PRINCIPAL INDEX.html */
+  #sectionPrincipal {
+    height: 100vh; }
+  .sectionPrincipal__divContainer .sectionPrincipal__divContainer__textContainer__h1Home {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 8rem;
+    color: #ffbb54; }
+  .sectionPrincipal__divContainer .sectionPrincipal__divContainer__textContainer__h3Home {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff; }
+  .sectionPrincipal__divContainer .sectionPrincipal__divArrowContainer {
+    height: 15rem; }
+  .sectionPrincipal__divArrowContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s; }
+  /* SECTION PRINCIPAL INDEX.html END */
+  /* SECTION EMPRESA INDEX.html */
+  .sectionEmpresa {
+    height: 100vh;
+    background-color: #ffda91; }
+  .sectionEmpresa__divContainer .sectionEmpresa__divContainer__titleEmpresaContainer .sectionEmpresa__divContainer__titleEmpresaContainer__titleEmpresaText {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 15rem; }
+  .sectionEmpresa__divContainer .sectionEmpresa__divContainer__textContainer .sectionEmpresa__divContainer__textpClass {
+    color: #000;
+    line-height: 5rem;
+    font-size: 2.5rem; }
+  /* SECTION EMPRESA INDEX.html END */
+  /* SECTION PRINCIPAL NOSOTROS.html */
+  #sectionPrincipalNosotros {
+    height: 100vh; }
+  .h1Home {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #ffbb54; }
+  .h3Home {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff; }
+  .titles {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 5rem; }
+  .pNosotros {
+    color: #000;
+    line-height: 3rem;
+    font-size: 2rem; }
+  .arrowContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s; }
+  /* SECTION PRINCIPAL NOSOTROS.html END */
+  /* SECTION STAFF NOSOTROS.html */
+  .sectionStaff {
+    height: 100vh;
+    background-color: #ededed; }
+  .titleStaff {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #000; }
+  /* SECTION STAFF NOSOTROS.html END*/
+  /* SECTION Portafolio.html START */
+  .cardsContainer {
+    margin-bottom: 10rem; }
+  /* SECTION Portafolio.html END */
+  /* FOOTER */
+  .iFooter {
+    font-size: 3rem;
+    color: #ffda91; }
+  .copyClass {
+    font-size: 2rem; }
+  .iFooter:hover {
+    transform: scale(1.5);
+    transition: all 1s; } }
+
+/*MOBILE*/
+.container404error {
+  background-color: #ededed;
+  height: 100vh; }
+
+.title404 {
+  color: #000;
+  font-size: 4rem;
+  font-weight: 500; }
+
+.h3404 {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 300; }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .title404 {
+    font-size: 8rem; }
+  .h3404 {
+    font-size: 4rem; } }
+
+@media (min-width: 1200px) {
+  .container404error {
+    height: 100vh; }
+  .title404 {
+    font-size: 12rem; }
+  .h3404 {
+    font-size: 6rem; } }

@@ -1,0 +1,57 @@
+/* SECTION PRINCIPAL NOSOTROS.html */
+
+#sectionPrincipalNosotros {
+    height: 100vh;
+}
+
+.h1Home {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: $colorH1 ;
+}
+
+.h3Home {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.arrowContainer {
+    height: 15rem;
+}
+
+.arrowContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.titles {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 5rem;
+}
+.pNosotros{
+    color: #000;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+a {
+    color: #000;
+}
+/* SECTION PRINCIPAL NOSOTROS.html END */
+
+/* SECTION STAFF NOSOTROS.html */
+
+.sectionStaff {
+    height: 200vh;
+    background-color: $colorStaff;
+}
+
+.titleStaff {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #000;
+}
+
+/* SECTION STAFF NOSOTROS.html */

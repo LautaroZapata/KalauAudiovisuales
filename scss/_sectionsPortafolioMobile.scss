@@ -1,0 +1,191 @@
+/*SECTION PRINCIPAL PORTAFOLIO.HTML*/ 
+.cardsContainer {
+    height: 100%;
+
+}
+.cards__cardsContainer {
+    margin-top: 5rem;
+}
+
+@each $cardsMain in almeida, sofia, tiziano, benjamin {
+    .cards__cardsContainer__#{$cardsMain}-card {
+        width: 30rem;
+        height: $heightcard+10rem;
+        background-image: url(../images/#{$cardsMain}.jpg);
+        background-repeat: none;
+        background-size: cover;
+        margin-top: 10rem;
+        box-shadow: 0px 0px 15px 5px black;
+        
+    }
+}
+.cards__cardsContainer__almeida-card:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.cards__cardsContainer__sofia-card:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.cards__cardsContainer__tiziano-card:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.cards__cardsContainer__benjamin-card:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.h3Portafolio {
+    font-size: 5rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.pPortafolio {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #fff;
+
+}
+
+.aPortafolio {
+    text-decoration: none;
+}
+
+
+/*ALMEIDA GALERY */
+.h1AlmeidaContainer {
+    height: 20rem;
+    width: 60%;
+}
+.h1AlmeidaText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #000;
+    background-color: $colorStaff;
+    font-size: 5rem;
+    padding-top: 15rem;
+    padding-bottom: 2rem;
+
+}
+.almeidaImgContainerMain {
+    background-color: $colorStaff;
+    height: 100%;
+}
+
+.almeidaImgContainer {
+    padding-top: 5rem;
+}
+@for $almeidaGalery from 1 through 15 {
+    .almeidaImg-#{$almeidaGalery}{width: 30rem; height: $heightcard+10; box-shadow: 0px 0px 15px 5px;}
+}
+
+.almeidaImg-1 {
+    background-image: url(../images/almeida1.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-2 {
+    background-image: url(../images/almeida2.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-3 {
+    background-image: url(../images/almeida3.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-4 {
+    background-image: url(../images/almeida4.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-5 {
+    background-image: url(../images/almeida5.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-6 {
+    background-image: url(../images/almeida6.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-7 {
+    background-image: url(../images/almeida7.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-8 {
+    background-image: url(../images/almeida8.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-9 {
+    background-image: url(../images/almeida9.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-10 {
+    background-image: url(../images/almeida10.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-11 {
+    background-image: url(../images/almeida11.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-12 {
+    background-image: url(../images/almeida12.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-13 {
+    background-image: url(../images/almeida13.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-14 {
+    background-image: url(../images/almeida14.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.almeidaImg-15 {
+    background-image: url(../images/almeida15.jpg);
+    background-size: cover;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}

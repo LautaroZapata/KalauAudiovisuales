@@ -1,0 +1,38 @@
+/* MOBILE RESPONSIVE */
+
+
+/* HTML ETIQUETAS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size:62.5%; 
+    /*1 rem = 10px*/    
+}
+
+.body--bgBody {
+    background: url(../images/backgroundFoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+/* HTML ETIQUETAS END */
+
+/* HEADER NAV RESPONSIVE */
+
+nav {
+    background-color: $colorNav;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* HEADER NAV RESPONSIVE */

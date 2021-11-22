@@ -1,0 +1,327 @@
+/* MOBILE RESPONSIVE */
+
+
+/* HTML ETIQUETAS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size:62.5%; 
+    /*1 rem = 10px*/    
+}
+
+.bgBody {
+    background: url(/images/backgroundFoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+/* HTML ETIQUETAS END */
+
+/* HEADER NAV RESPONSIVE */
+
+nav {
+    background-color:#ffe9bd;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #000;
+    text-decoration: none;
+}
+
+/* HEADER NAV RESPONSIVE */
+
+/* SECTION PRINCIPAL INDEX.html*/
+
+#sectionPrincipal {
+    height: 100vh;
+}
+
+.h1Home {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #ffbb54 ;
+}
+
+.h3Home {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.arrowContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+/* SECTION PRINCIPAL INDEX.html END*/
+
+/* SECTION EMPRESA INDEX.html */
+
+.sectionEmpresa {
+    height: 100vh;
+    background-color:#ffda91;
+}
+
+.titleEmpresa {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.pClass {
+    color: #000;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+/* SECTION EMPRESA INDEX.html END */
+
+
+
+
+
+
+/* SECTION PRINCIPAL NOSOTROS.html */
+
+#sectionPrincipalNosotros {
+    height: 100vh;
+}
+
+.h1Home {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #ffbb54 ;
+}
+
+.h3Home {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.arrowContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+a {
+    color: #000;
+}
+/* SECTION PRINCIPAL NOSOTROS.html END */
+
+/* SECTION STAFF NOSOTROS.html */
+
+.sectionStaff {
+    height: 200vh;
+    background-color:#ededed;
+}
+
+.titleStaff {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #000;
+}
+
+/* SECTION STAFF NOSOTROS.html */
+
+/* FOOTER */
+
+.bgfooter {
+    background-color:#ffbb54;
+}
+.iFooter {
+    font-size: 2rem;
+    color:#ffda91 ;
+}
+
+.copyClass {
+    font-size: 2rem;
+}
+
+.iFooter:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+
+
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+
+
+
+
+@media (min-width: 1200px) {
+    /* HTML ETIQUETAS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size:62.5%; 
+    /*1 rem = 10px*/    
+}
+
+.bgBody {
+    background: url(/images/backgroundFoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+/* HTML ETIQUETAS END */
+
+/* HEADER NAV RESPONSIVE */
+
+nav {
+    background-color:#ffe9bd;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #000;
+    text-decoration: none;
+
+}
+
+.navBarLg {
+    display: flex;
+    justify-content: end;
+}
+
+nav div ul li a {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+nav div ul li a:hover {
+    background-color: #ffbb54;
+
+}
+
+/* HEADER NAV RESPONSIVE */
+
+/* SECTION PRINCIPAL INDEX.html */
+
+#sectionPrincipal {
+    height: 100vh;
+}
+
+.h1Home {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 8rem;
+    color: #ffbb54 ;
+}
+
+.h3Home {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.arrowContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+/* SECTION PRINCIPAL INDEX.html END */
+
+/* SECTION EMPRESA INDEX.html */
+
+.sectionEmpresa {
+    height: 100vh;
+    background-color:#ffda91;
+}
+
+.titleEmpresa {
+    font-size: 8rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20rem;
+}
+
+.pClass {
+    color: #000;
+    line-height: 5rem;
+    font-size: 3rem;
+}
+
+/* SECTION EMPRESA INDEX.html END */
+
+/* SECTION PRINCIPAL NOSOTROS.html */
+
+#sectionPrincipalNosotros {
+    height: 100vh;
+}
+
+.h1Home {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 8rem;
+    color: #ffbb54 ;
+}
+
+.h3Home {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.arrowContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+/* SECTION PRINCIPAL NOSOTROS.html END */
+
+/* SECTION STAFF NOSOTROS.html */
+
+.sectionStaff {
+    height: 100vh;
+    background-color:#ededed;
+}
+
+.titleStaff {
+    font-size: 8rem;
+    font-weight: 500;
+    color: #000;
+}
+
+
+/* SECTION EMPRESA INDEX.html END */
+
+
+/* FOOTER */
+
+.bgfooter {
+    background-color:#ffbb54;
+}
+.iFooter {
+    font-size: 2rem;
+    color:#ffda91 ;
+}
+
+.copyClass {
+    font-size: 2rem;
+}
+
+.iFooter:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+}

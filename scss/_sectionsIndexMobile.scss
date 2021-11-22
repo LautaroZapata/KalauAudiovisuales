@@ -1,0 +1,55 @@
+/* SECTION PRINCIPAL INDEX.html*/
+
+#sectionPrincipal {
+    height: 100vh;
+}
+
+.sectionPrincipal__divContainer {
+    .sectionPrincipal__divContainer__textContainer__h1Home {
+        font-family: 'Karla', sans-serif;
+        font-weight: 700;
+        font-size: 4rem;
+        color: $colorH1 ;
+        }
+    .sectionPrincipal__divContainer__textContainer__h3Home {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #fff;
+        }
+    .sectionPrincipal__divArrowContainer {
+        height: 15rem;
+        }
+    }
+    .sectionPrincipal__divArrowContainer:hover {
+        transform: scale(1.1);
+        transition: all 1s;
+        }
+
+/* SECTION PRINCIPAL INDEX.html END*/
+
+/* SECTION EMPRESA INDEX.html */
+
+.sectionEmpresa {
+    height: 100vh;
+    background-color: $colorBg;
+}
+
+.sectionEmpresa__divContainer {
+    .sectionEmpresa__divContainer__titleEmpresaContainer{
+        .sectionEmpresa__divContainer__titleEmpresaContainer__titleEmpresaText {
+            font-size: 3rem;
+            font-weight: 500;
+            color: #000;
+            margin-bottom: 5rem;
+            }
+    }
+    .sectionEmpresa__divContainer__textContainer {
+        .sectionEmpresa__divContainer__textpClass {
+            color: #000;
+            line-height: 3rem;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+/* SECTION EMPRESA INDEX.html END */

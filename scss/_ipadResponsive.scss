@@ -1,0 +1,174 @@
+// Medium devices (tablets, 768px and up)
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    /* HTML ETIQUETAS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size:62.5%; 
+    /*1 rem = 10px*/    
+}
+
+.body--bgBody {
+    background: url(../images/backgroundFoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+/* HTML ETIQUETAS END */
+
+/* HEADER NAV RESPONSIVE */
+
+nav {
+    background-color: $colorNav;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* HEADER NAV RESPONSIVE */
+
+/* SECTION PRINCIPAL INDEX.html */
+
+#sectionPrincipal {
+    height: 100vh;
+}
+
+.sectionPrincipal__divContainer {
+    .sectionPrincipal__divContainer__textContainer__h1Home {
+        font-family: 'Karla', sans-serif;
+        font-weight: 700;
+        font-size: 8rem;
+        color: $colorH1 ;
+        }
+    .sectionPrincipal__divContainer__textContainer__h3Home {
+        font-size: 3rem;
+        font-weight: 500;
+        color: #fff;
+        }
+    .sectionPrincipal__divArrowContainer {
+        height: 15rem;
+        }
+    }
+    .sectionPrincipal__divArrowContainer:hover {
+        transform: scale(1.1);
+        transition: all 1s;
+        }
+
+/* SECTION PRINCIPAL INDEX.html END */
+
+/* SECTION EMPRESA INDEX.html */
+
+.sectionEmpresa {
+    height: 100vh;
+    background-color:$colorBg;
+}
+
+.sectionEmpresa__divContainer {
+    .sectionEmpresa__divContainer__titleEmpresaContainer{
+        .sectionEmpresa__divContainer__titleEmpresaContainer__titleEmpresaText {
+            font-size: 5rem;
+            font-weight: 500;
+            color: #000;
+            margin-bottom: 15rem;
+            }
+    }
+    .sectionEmpresa__divContainer__textContainer {
+        .sectionEmpresa__divContainer__textpClass {
+            color: #000;
+            line-height: 5rem;
+            font-size: 2.5rem;
+        }
+    }
+}
+
+/* SECTION EMPRESA INDEX.html END */
+
+/* SECTION PRINCIPAL NOSOTROS.html */
+
+#sectionPrincipalNosotros {
+    height: 100vh;
+}
+
+.h1Home {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: $colorH1 ;
+}
+
+.h3Home {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+}
+.titles {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 5rem;
+}
+.pNosotros{
+    color: #000;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+.arrowContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+/* SECTION PRINCIPAL NOSOTROS.html END */
+
+/* SECTION STAFF NOSOTROS.html */
+
+.sectionStaff {
+    height: 100vh;
+    background-color: $colorStaff;
+}
+
+.titleStaff {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #000;
+}
+
+/* SECTION STAFF NOSOTROS.html END*/
+
+
+
+/* SECTION Portafolio.html START */
+
+.cardsContainer {
+    margin-bottom: 10rem;
+}
+
+
+/* SECTION Portafolio.html END */
+
+/* FOOTER */
+
+.iFooter {
+    font-size: 3rem;
+    color:$colorBg ;
+}
+
+.copyClass {
+    font-size: 2rem;
+}
+
+.iFooter:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+}

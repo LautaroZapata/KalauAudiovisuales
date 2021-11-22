@@ -1,0 +1,38 @@
+/*MOBILE*/ 
+
+.container404error {
+    background-color: $colorStaff;
+    height: 100vh;
+}
+.title404 {
+    color: #000;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.h3404{
+    font-size: 2rem;
+    color:#000;
+    font-weight: 300;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .title404 {
+        font-size: 8rem;
+    }
+    .h3404 {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container404error {
+        height: 100vh;
+    }
+    .title404 {
+        font-size: 12rem;
+    }
+    .h3404 {
+        font-size: 6rem;
+    }
+}

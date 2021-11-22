@@ -1,0 +1,39 @@
+/* FOOTER */
+.footerContainer {
+    .footerContainer__divCopyrightContainer{
+        .footerContainer__divCopyrightContainer__copyrightText {
+            font-size: 1.5rem;
+        }
+    }
+    
+}
+
+.color-twitter:hover {
+    transform: scale(1.3);
+    transition: all 1s;
+}
+
+.color-youtube:hover {
+    transform: scale(1.3);
+    transition: all 1s;
+}
+
+.color-instagram:hover {
+    transform: scale(1.3);
+    transition: all 1s;
+}
+
+$icon: (
+    twitter:$colorBg,
+    youtube:$colorBg,
+    instagram:$colorBg
+);
+
+@each $iconosredes, $color in $icon {
+    .color-#{$iconosredes}{
+        color: $colorBg;
+        font-size: 2rem;
+    }
+}
+
+/* FOOTER */
