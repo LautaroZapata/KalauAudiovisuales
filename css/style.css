@@ -565,6 +565,195 @@ a {
   margin-bottom: 10rem; }
 
 /*BENJAMIN GALERY END*/
+/*SOFIA GALERY */
+.h1SofiaContainer {
+  height: 20rem;
+  width: 60%; }
+
+.h1SofiaText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #000;
+  background-color: #ededed;
+  font-size: 5rem;
+  padding-top: 15rem;
+  padding-bottom: 2rem; }
+
+.sofiaImgContainerMain {
+  background-color: #ededed;
+  height: 100%; }
+
+.sofiaImgContainer {
+  padding-top: 5rem; }
+
+.sofiaImg-1 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-2 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-3 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-4 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-5 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-6 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-7 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-8 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-9 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-10 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-11 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-12 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-13 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-14 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-15 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.sofiaImg-1 {
+  background-image: url(../images/sofia1.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-2 {
+  background-image: url(../images/sofia2.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-3 {
+  background-image: url(../images/sofia3.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-4 {
+  background-image: url(../images/sofia4.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-5 {
+  background-image: url(../images/bsofia5.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-6 {
+  background-image: url(../images/sofia6.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-7 {
+  background-image: url(../images/sofia7.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-8 {
+  background-image: url(../images/sofia8.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-9 {
+  background-image: url(../images/sofia9.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-10 {
+  background-image: url(../images/sofia10.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-11 {
+  background-image: url(../images/sofia11.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-12 {
+  background-image: url(../images/sofia12.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-13 {
+  background-image: url(../images/sofia13.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-14 {
+  background-image: url(../images/sofia14.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.sofiaImg-15 {
+  background-image: url(../images/sofia15.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+/*SOFIA GALERY END*/
 /* FOOTER */
 .footerContainer .footerContainer__divCopyrightContainer .footerContainer__divCopyrightContainer__copyrightText {
   font-size: 1.5rem; }
@@ -717,6 +906,12 @@ a {
     margin-left: 5rem;
     margin-right: 5rem; }
   .benjaminImgContainerDesktop {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  .tizianoImgContainerDesktop {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  .sofiaImgContainerDesktop {
     margin-left: 5rem;
     margin-right: 5rem; }
   /* SECTION PORTAFOLIO.html END */
