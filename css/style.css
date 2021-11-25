@@ -345,36 +345,6 @@ a {
   margin-top: 10rem;
   margin-bottom: 10rem; }
 
-.almeidaImg-11 {
-  background-image: url(../images/almeida11.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
-.almeidaImg-12 {
-  background-image: url(../images/almeida12.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
-.almeidaImg-13 {
-  background-image: url(../images/almeida13.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
-.almeidaImg-14 {
-  background-image: url(../images/almeida14.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
-.almeidaImg-15 {
-  background-image: url(../images/almeida15.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
 /*ALMEIDA GALERY END*/
 /*BENJAMIN GALERY */
 .h1BenjaminContainer {
@@ -530,36 +500,6 @@ a {
 
 .benjaminImg-10 {
   background-image: url(../images/benjamin10.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
-.benjaminImg-11 {
-  background-image: url(../images/benjamin11.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
-.benjaminImg-12 {
-  background-image: url(../images/benjamin12.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
-.benjaminImg-13 {
-  background-image: url(../images/benjamin13.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
-.benjaminImg-14 {
-  background-image: url(../images/benjamin14.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
-.benjaminImg-15 {
-  background-image: url(../images/benjamin15.jpg);
   background-size: cover;
   margin-top: 10rem;
   margin-bottom: 10rem; }
@@ -723,37 +663,166 @@ a {
   margin-top: 10rem;
   margin-bottom: 10rem; }
 
-.sofiaImg-11 {
-  background-image: url(../images/sofia11.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
-.sofiaImg-12 {
-  background-image: url(../images/sofia12.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
-.sofiaImg-13 {
-  background-image: url(../images/sofia13.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
-.sofiaImg-14 {
-  background-image: url(../images/sofia14.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
-.sofiaImg-15 {
-  background-image: url(../images/sofia15.jpg);
-  background-size: cover;
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
 /*SOFIA GALERY END*/
+/*TIZIANO GALERY */
+.h1TizianoContainer {
+  height: 20rem;
+  width: 60%; }
+
+.h1TizianoText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #000;
+  background-color: #ededed;
+  font-size: 5rem;
+  padding-top: 15rem;
+  padding-bottom: 2rem; }
+
+.tizianoImgContainerMain {
+  background-color: #ededed;
+  height: 100%; }
+
+.tizianoImgContainer {
+  padding-top: 5rem; }
+
+.tizianoImg-1 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-2 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-3 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-4 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-5 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-6 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-7 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-8 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-9 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-10 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-11 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-12 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-13 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-14 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-15 {
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0px 0px 15px 5px; }
+
+.tizianoImg-1 {
+  background-image: url(../images/tiziano1.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.tizianoImg-2 {
+  background-image: url(../images/tiziano2.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.tizianoImg-3 {
+  background-image: url(../images/tiziano3.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.tizianoImg-4 {
+  background-image: url(../images/tiziano4.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.tizianoImg-5 {
+  background-image: url(../images/tiziano5.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.tizianoImg-6 {
+  background-image: url(../images/tiziano6.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.tizianoImg-7 {
+  background-image: url(../images/tiziano7.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.tizianoImg-8 {
+  background-image: url(../images/tiziano8.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.tizianoImg-9 {
+  background-image: url(../images/tiziano9.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.tizianoImg-10 {
+  background-image: url(../images/tiziano10.jpg);
+  background-size: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+/*TIZIANO GALERY END*/
 /* FOOTER */
 .footerContainer .footerContainer__divCopyrightContainer .footerContainer__divCopyrightContainer__copyrightText {
   font-size: 1.5rem; }
