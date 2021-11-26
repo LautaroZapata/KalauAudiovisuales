@@ -1,0 +1,106 @@
+#sectionPrincipalServicios {
+    height: 100vh;
+}
+/*ETIQUETAS SERVICIOS */
+.h3TitlesServicios {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #000;
+}
+.h3ServiciosArrow {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.pServicios{
+    color: #fff;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.aTextServicios {
+    color: $colorBg;
+}
+/*ETIQUETAS SERVICIOS */
+
+/*CARDS SERVICIOS */
+
+.cardsServiciosMain {
+    height: 200vh;
+}
+
+.bgCardsServicios {
+    background-color: #fff;
+    height: 5rem;
+}
+
+/*CARDS SERVICIOS */
+
+/*CARD BOOK SERVICIOS */
+.cardServiciosBooksContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.cardServiciosBooksContainer {
+    height: 30rem;
+    width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.cardServicioBookBg-Text {
+    background-image: url(../images/cameraCard.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 25rem;
+}
+
+/*CARD BOOK SERVICIOS */
+
+/*CARD CORPORATIVAS SERVICIOS */
+
+.cardServiciosCorporativasContainer {
+    height: 30rem;
+    width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.cardServiciosCorporativasContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.cardServicioCorporativasBg-Text {
+    background-image: url(../images/empresaCard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 25rem;
+}
+
+/*CARD CORPORATIVAS SERVICIOS */
+
+/*CARD EMPRENDEDORES SERVICIOS */
+
+.cardServiciosEmprendedoresContainer {
+    height: 30rem;
+    width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.cardServiciosEmprendedoresContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.cardServicioEmprendedoresBg-Text {
+    background-image: url(../images/emprendedorCard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 25rem;
+}
+
+/*CARD EMPRENDEDORES SERVICIOS */
