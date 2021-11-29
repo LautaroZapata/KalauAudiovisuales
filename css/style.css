@@ -129,6 +129,7 @@ a {
   background-repeat: none;
   background-size: cover;
   margin-top: 10rem;
+  margin-bottom: 5rem;
   box-shadow: 0px 0px 15px 5px black; }
 
 .cards__cardsContainer__sofia-card {
@@ -138,6 +139,7 @@ a {
   background-repeat: none;
   background-size: cover;
   margin-top: 10rem;
+  margin-bottom: 5rem;
   box-shadow: 0px 0px 15px 5px black; }
 
 .cards__cardsContainer__tiziano-card {
@@ -147,6 +149,7 @@ a {
   background-repeat: none;
   background-size: cover;
   margin-top: 10rem;
+  margin-bottom: 5rem;
   box-shadow: 0px 0px 15px 5px black; }
 
 .cards__cardsContainer__benjamin-card {
@@ -156,6 +159,7 @@ a {
   background-repeat: none;
   background-size: cover;
   margin-top: 10rem;
+  margin-bottom: 5rem;
   box-shadow: 0px 0px 15px 5px black; }
 
 .cards__cardsContainer__almeida-card:hover {
@@ -912,11 +916,47 @@ a {
   height: 25rem; }
 
 /*CARD EMPRENDEDORES SERVICIOS */
+.sectionContact {
+  height: 150vh;
+  margin-top: 10rem; }
+
+.h1Contact {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #ffbb54; }
+
+.divMainContainerContact {
+  background-color: #ededed;
+  height: 40rem;
+  width: 30rem;
+  padding: 3rem;
+  box-shadow: 0px 0px 30px black; }
+
+.control {
+  padding: 1rem;
+  border: 2px solid black;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem; }
+
+.send {
+  width: 100%;
+  background-color: #ffda91;
+  border: 2px solid #ffbb54;
+  margin-top: 3rem;
+  font-size: 2rem; }
+
+textarea {
+  height: 15rem;
+  max-width: 100%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: 2px solid black; }
+
 /* FOOTER */
-.footerContainer {
-  margin-top: 5rem; }
-  .footerContainer .footerContainer__divCopyrightContainer .footerContainer__divCopyrightContainer__copyrightText {
-    font-size: 1.5rem; }
+.footerContainer .footerContainer__divCopyrightContainer .footerContainer__divCopyrightContainer__copyrightText {
+  font-size: 1.5rem; }
 
 .color-twitter:hover {
   transform: scale(1.3);
@@ -1081,6 +1121,41 @@ a {
     font-weight: 500;
     color: #fff; }
   /*SECTION Servicios.html END */
+  /*SECTION Contacto.html START */
+  .sectionContact {
+    height: 100vh; }
+  .h1Contact {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 8rem;
+    color: #ffbb54; }
+  .divMainContainerContact {
+    background-color: #ededed;
+    height: 50rem;
+    width: 130rem;
+    padding: 3rem;
+    box-shadow: 0px 0px 30px black;
+    margin-top: 10rem;
+    border: 1rem solid #ffe9bd; }
+  .control {
+    padding: 1rem;
+    border: 2px solid black;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 2rem; }
+  .send {
+    width: 100%;
+    background-color: #ffda91;
+    border: 2px solid #ffbb54;
+    margin-top: 3rem;
+    font-size: 2.5rem; }
+  textarea {
+    height: 15rem;
+    max-width: 100%;
+    padding: 1rem;
+    font-size: 2rem;
+    border: 2px solid black; }
+  /*SECTION Contacto.html END */
   /* FOOTER */
   .iFooter {
     font-size: 2rem;
@@ -1255,6 +1330,40 @@ a {
     height: 35rem; }
   /*CARD EMPRENDEDORES SERVICIOS */
   /*SECTION Servicios.html END */
+  /*SECTION Contacto.html START */
+  .sectionContact {
+    height: 100vh; }
+  .h1Contact {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #ffbb54; }
+  .divMainContainerContact {
+    background-color: #ededed;
+    height: 55rem;
+    width: 60rem;
+    padding: 3rem;
+    box-shadow: 0px 0px 30px black;
+    margin-top: 10rem; }
+  .control {
+    padding: 1rem;
+    border: 2px solid black;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 2rem; }
+  .send {
+    width: 100%;
+    background-color: #ffda91;
+    border: 2px solid #ffbb54;
+    margin-top: 3rem;
+    font-size: 2.5rem; }
+  textarea {
+    height: 15rem;
+    max-width: 100%;
+    padding: 1rem;
+    font-size: 2rem;
+    border: 2px solid black; }
+  /*SECTION Contacto.html END */
   /* FOOTER */
   .iFooter {
     font-size: 3rem;
