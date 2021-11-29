@@ -913,8 +913,10 @@ a {
 
 /*CARD EMPRENDEDORES SERVICIOS */
 /* FOOTER */
-.footerContainer .footerContainer__divCopyrightContainer .footerContainer__divCopyrightContainer__copyrightText {
-  font-size: 1.5rem; }
+.footerContainer {
+  margin-top: 5rem; }
+  .footerContainer .footerContainer__divCopyrightContainer .footerContainer__divCopyrightContainer__copyrightText {
+    font-size: 1.5rem; }
 
 .color-twitter:hover {
   transform: scale(1.3);
