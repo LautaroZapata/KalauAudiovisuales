@@ -1006,7 +1006,8 @@ textarea {
     text-decoration: none; }
     nav div ul li a {
       margin-left: 2rem;
-      margin-right: 2rem; }
+      margin-right: 2rem;
+      border-radius: 10px; }
   .navBarLg {
     display: flex;
     justify-content: end;
@@ -1014,7 +1015,8 @@ textarea {
     font-family: 'Karla', sans-serif;
     font-weight: 500; }
   nav div ul li a:hover {
-    background-color: #ffbb54; }
+    background-color: #ffbb54;
+    border-radius: 10px; }
   /* HEADER NAV RESPONSIVE */
   /* SECTION PRINCIPAL INDEX.html */
   #sectionPrincipal {
@@ -1042,7 +1044,7 @@ textarea {
     font-size: 5rem;
     font-weight: 500;
     color: #000;
-    margin-bottom: 20rem; }
+    margin-bottom: 10rem; }
   .sectionEmpresa__divContainer .sectionEmpresa__divContainer__textContainer .sectionEmpresa__divContainer__textpClass {
     color: #000;
     line-height: 5rem;
@@ -1068,7 +1070,7 @@ textarea {
     font-size: 5rem;
     font-weight: 500;
     color: #000;
-    margin-bottom: 20rem; }
+    margin-bottom: 10rem; }
   .arrowContainer:hover {
     transform: scale(1.1);
     transition: all 1s; }
@@ -1158,7 +1160,7 @@ textarea {
   /*SECTION Contacto.html END */
   /* FOOTER */
   .iFooter {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #ffda91; }
   .copyClass {
     font-size: 2rem; }

@@ -39,6 +39,7 @@ nav {
                 a {
                     margin-left: 2rem;
                     margin-right: 2rem;
+                    border-radius: 10px;
                 }
             }
         }
@@ -57,6 +58,7 @@ nav {
 
 nav div ul li a:hover {
     background-color: $colorH1;
+    border-radius: 10px;
 
 }
 
@@ -102,7 +104,7 @@ nav div ul li a:hover {
             font-size: 5rem;
             font-weight: 500;
             color: #000;
-            margin-bottom: 20rem;
+            margin-bottom: 10rem;
             }
     }
     .sectionEmpresa__divContainer__textContainer {
@@ -146,7 +148,7 @@ nav div ul li a:hover {
     font-size: 5rem;
     font-weight: 500;
     color: #000;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
 }
 
 .arrowContainer:hover {
@@ -294,7 +296,7 @@ textarea {
 /* FOOTER */
 
 .iFooter {
-    font-size: 2rem;
+    font-size: 3rem;
     color:$colorBg ;
 }
 
