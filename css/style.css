@@ -34,11 +34,11 @@ nav {
 .sectionPrincipal__divContainer .sectionPrincipal__divContainer__textContainer__h1Home {
   font-family: 'Karla', sans-serif;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 3rem;
   color: #ffbb54; }
 
 .sectionPrincipal__divContainer .sectionPrincipal__divContainer__textContainer__h3Home {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #fff; }
 
@@ -56,7 +56,7 @@ nav {
   background-color: #ffda91; }
 
 .sectionEmpresa__divContainer .sectionEmpresa__divContainer__titleEmpresaContainer .sectionEmpresa__divContainer__titleEmpresaContainer__titleEmpresaText {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 500;
   color: #000;
   margin-bottom: 5rem; }
@@ -74,11 +74,11 @@ nav {
 .h1Home {
   font-family: 'Karla', sans-serif;
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 3rem;
   color: #ffbb54; }
 
 .h3Home {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #fff; }
 
@@ -90,7 +90,7 @@ nav {
   transition: all 1s; }
 
 .titles {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 500;
   color: #000;
   margin-bottom: 5rem; }
@@ -832,12 +832,12 @@ a {
 
 /*ETIQUETAS SERVICIOS */
 .h3TitlesServicios {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 300;
   color: #000; }
 
 .h3ServiciosArrow {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #fff; }
 
@@ -923,7 +923,7 @@ a {
 .h1Contact {
   font-family: 'Karla', sans-serif;
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 3rem;
   color: #ffbb54; }
 
 .divMainContainerContact {
@@ -1199,10 +1199,10 @@ textarea {
   .sectionPrincipal__divContainer .sectionPrincipal__divContainer__textContainer__h1Home {
     font-family: 'Karla', sans-serif;
     font-weight: 700;
-    font-size: 8rem;
+    font-size: 6rem;
     color: #ffbb54; }
   .sectionPrincipal__divContainer .sectionPrincipal__divContainer__textContainer__h3Home {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #fff; }
   .sectionPrincipal__divContainer .sectionPrincipal__divArrowContainer {
@@ -1216,10 +1216,10 @@ textarea {
     height: 100vh;
     background-color: #ffda91; }
   .sectionEmpresa__divContainer .sectionEmpresa__divContainer__titleEmpresaContainer .sectionEmpresa__divContainer__titleEmpresaContainer__titleEmpresaText {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 500;
     color: #000;
-    margin-bottom: 15rem; }
+    margin-bottom: 5rem; }
   .sectionEmpresa__divContainer .sectionEmpresa__divContainer__textContainer .sectionEmpresa__divContainer__textpClass {
     color: #000;
     line-height: 5rem;
@@ -1231,7 +1231,7 @@ textarea {
   .h1Home {
     font-family: 'Karla', sans-serif;
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 6rem;
     color: #ffbb54; }
   .h3Home {
     font-size: 3rem;
@@ -1244,8 +1244,8 @@ textarea {
     margin-bottom: 5rem; }
   .pNosotros {
     color: #000;
-    line-height: 3rem;
-    font-size: 2rem; }
+    line-height: 5rem;
+    font-size: 2.5rem; }
   .arrowContainer:hover {
     transform: scale(1.1);
     transition: all 1s; }
