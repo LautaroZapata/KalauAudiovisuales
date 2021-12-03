@@ -1269,6 +1269,10 @@ textarea {
     font-size: 3rem;
     font-weight: 300;
     color: #000; }
+  .h3ServiciosArrow {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff; }
   .pServicios {
     color: #fff;
     line-height: 3rem;
