@@ -178,6 +178,13 @@ a {
   transform: scale(1.1);
   transition: all 1s; }
 
+.h1Portafolio {
+  font-family: Karla;
+  font-weight: 300;
+  font-size: 6rem;
+  margin-top: 10rem;
+  color: #fff; }
+
 .h3Portafolio {
   font-size: 5rem;
   font-weight: 300;
@@ -859,6 +866,25 @@ a {
   height: 5rem; }
 
 /*CARDS SERVICIOS */
+/*CARD VIDEOCLIPS SERVICIOS */
+.cardServiciosVideoclipsContainer:hover {
+  transform: scale(1.1);
+  transition: all 1s; }
+
+.cardServiciosVideoclipsContainer {
+  height: 30rem;
+  width: 80%;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+.cardServicioVideoclipsBg-Text {
+  background-image: url(../images/camara.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 25rem; }
+
+/*CARD VIDEOCLIPS SERVICIOS */
 /*CARD BOOK SERVICIOS */
 .cardServiciosBooksContainer:hover {
   transform: scale(1.1);
@@ -1085,13 +1111,18 @@ textarea {
     color: #000; }
   /* SECTION STAFF NOSOTROS.html END */
   /* SECTION PORTAFOLIO.html START */
+  .h1Portafolio {
+    font-family: Karla;
+    font-weight: 300;
+    font-size: 6rem;
+    color: #000; }
   .cardsContainer {
     display: flex;
-    height: 150vh; }
+    height: 150vh;
+    background-color: #ededed; }
   .cards__cardsContainer {
     display: flex;
-    justify-content: space-evenly;
-    background-color: #ededed; }
+    justify-content: space-evenly; }
   .cards__cardsContainer__almeida-card {
     margin-left: 20rem;
     margin-right: 20rem; }

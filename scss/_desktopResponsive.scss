@@ -177,15 +177,26 @@ nav div ul li a:hover {
 
 /* SECTION PORTAFOLIO.html START */
 
+.h1Portafolio {
+    font-family: Karla;
+    font-weight: 300;
+    font-size: 6rem;
+
+    color: #000;
+
+
+}
+
+
 .cardsContainer {
     display: flex;
     height: 150vh;
+    background-color: $colorStaff;
 }
 
 .cards__cardsContainer {
     display: flex;
     justify-content: space-evenly;
-    background-color: $colorStaff;
 }
 .cards__cardsContainer__almeida-card {
     margin-left: 20rem;

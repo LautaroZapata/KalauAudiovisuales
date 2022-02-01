@@ -37,6 +37,28 @@
 
 /*CARDS SERVICIOS */
 
+/*CARD VIDEOCLIPS SERVICIOS */
+.cardServiciosVideoclipsContainer:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.cardServiciosVideoclipsContainer {
+    height: 30rem;
+    width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.cardServicioVideoclipsBg-Text {
+    background-image: url(../images/camara.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 25rem;
+}
+
+/*CARD VIDEOCLIPS SERVICIOS */
+
 /*CARD BOOK SERVICIOS */
 .cardServiciosBooksContainer:hover {
     transform: scale(1.1);
